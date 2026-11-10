@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <defs>
+    <linearGradient id="bigChocBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2724"/>
+      <stop offset="100%" stop-color="#191614"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="800" fill="url(#bigChocBg)"/>
+  
+  <!-- Industrial conveyor & geometric pods schematic -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" fill="none">
+    <circle cx="500" cy="380" r="220"/>
+    <circle cx="500" cy="380" r="160"/>
+    <line x1="100" y1="380" x2="900" y2="380"/>
+    <line x1="500" y1="100" x2="500" y2="660"/>
+  </g>
+  
+  <!-- Conveyor Silhouettes -->
+  <rect x="260" y="320" width="480" height="120" rx="8" fill="#3a322c" stroke="#4d433b" stroke-width="2"/>
+  <text x="500" y="375" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="22" font-weight="600" letter-spacing="4" fill="#d1bead">INDUSTRIAL CACAO</text>
+  <text x="500" y="405" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" letter-spacing="2" fill="#8c776c" text-transform="uppercase">Standardised · Over-Roasted · Masked</text>
+  
+  <text x="500" y="740" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="12" letter-spacing="3" fill="#6e5c50" text-transform="uppercase">The Status Quo of Mass Manufacturing</text>
+</svg>

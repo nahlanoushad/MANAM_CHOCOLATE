@@ -1,0 +1,134 @@
+/*
+Theme Name: Manam Chocolate
+Theme URI: https://manamchocolate.com/
+Author: Antigravity
+Author URI: https://manamchocolate.com/
+Description: Bespoke WordPress e-commerce theme developed for Manam Chocolate. Built with semantic HTML5, accessible layouts, responsive typography, and native WooCommerce integration readiness.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: manamchocolate
+Tags: e-commerce, custom-menu, custom-logo, featured-images, threaded-comments, translation-ready
+*/
+
+/* ==========================================================================
+   WordPress Core Required Classes
+   ========================================================================== */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    max-width: 100%;
+    padding: 6px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 6px 4px 2px;
+    color: #666666;
+}
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+    clip: auto !important;
+    clip-path: none;
+    color: #1a1a1a;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 8px;
+    line-height: normal;
+    padding: 12px 20px;
+    text-decoration: none;
+    top: 8px;
+    width: auto;
+    z-index: 100000;
+}
+

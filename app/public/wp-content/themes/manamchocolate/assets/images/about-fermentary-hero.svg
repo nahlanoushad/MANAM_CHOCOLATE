@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 900" width="2000" height="900">
+  <defs>
+    <linearGradient id="fermBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#140b06"/>
+      <stop offset="60%" stop-color="#24140b"/>
+      <stop offset="100%" stop-color="#382012"/>
+    </linearGradient>
+    <linearGradient id="warmAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9933b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8c471c" stop-opacity="0.1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4924b" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="2000" height="900" fill="url(#fermBg)"/>
+  <circle cx="1000" cy="450" r="600" fill="url(#glow)"/>
+  
+  <!-- Subtle Architectural & Fermentary Wooden Slats Pattern -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="2">
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1400" y1="0" x2="1400" y2="900"/>
+    <line x1="1600" y1="0" x2="1600" y2="900"/>
+    <line x1="1800" y1="0" x2="1800" y2="900"/>
+  </g>
+
+  <!-- Wooden Fermentation Boxes Illustration Silhouettes -->
+  <g fill="#1f1109" opacity="0.8">
+    <rect x="250" y="580" width="400" height="260" rx="4"/>
+    <rect x="800" y="550" width="400" height="290" rx="4"/>
+    <rect x="1350" y="580" width="400" height="260" rx="4"/>
+  </g>
+
+  <!-- Ambient Light Reflection -->
+  <rect x="0" y="700" width="2000" height="200" fill="url(#warmAmber)"/>
+  
+  <!-- Label Mark -->
+  <text x="1000" y="820" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" letter-spacing="6" fill="#a68972" text-transform="uppercase">Distinct Origins Cacao Fermentery · West Godavari, Andhra Pradesh</text>
+</svg>

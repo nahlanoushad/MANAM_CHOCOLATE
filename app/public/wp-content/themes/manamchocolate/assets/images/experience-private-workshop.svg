@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="privBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a160c"/>
+      <stop offset="50%" stop-color="#3d1f11"/>
+      <stop offset="100%" stop-color="#190a05"/>
+    </linearGradient>
+    <radialGradient id="privGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#dfa856" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#privBg)"/>
+  <circle cx="600" cy="380" r="450" fill="url(#privGlow)"/>
+
+  <!-- Golden Celebration Ribbon & Chocolates Array -->
+  <g transform="translate(600, 360)">
+    <circle r="140" fill="#200f07" stroke="#b89332" stroke-width="2"/>
+    <circle r="125" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text y="-20" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" letter-spacing="4" fill="#eed9c4" text-transform="uppercase">BESPOKE GATHERINGS</text>
+    <text y="20" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" letter-spacing="3" fill="#ffffff">PRIVATE</text>
+    <text y="50" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" letter-spacing="3" fill="#d4af37" text-transform="uppercase">WORKSHOPS</text>
+  </g>
+
+  <text x="600" y="650" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="500" letter-spacing="2" fill="#d9bead">Birthdays · Playdates · Private Celebrations · Guided Chocolatiering</text>
+  <text x="600" y="685" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" letter-spacing="2" fill="#8c7262" text-transform="uppercase">Manam Chocolate · Eldeco Center, Saket, New Delhi</text>
+</svg>

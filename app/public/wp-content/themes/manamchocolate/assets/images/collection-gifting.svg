@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <defs>
+    <radialGradient id="bgGift" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#44271a"/>
+      <stop offset="50%" stop-color="#2d1910"/>
+      <stop offset="100%" stop-color="#190e09"/>
+    </radialGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fae2b8"/>
+      <stop offset="50%" stop-color="#d4a359"/>
+      <stop offset="100%" stop-color="#9a6c2d"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3c2217"/>
+      <stop offset="100%" stop-color="#22120b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#bgGift)"/>
+
+  <!-- Botanical Cacao Filigree Background -->
+  <g opacity="0.1" stroke="#f5d79e" stroke-width="1.5" fill="none">
+    <circle cx="150" cy="120" r="90"/>
+    <circle cx="850" cy="480" r="110"/>
+    <path d="M100,500 Q180,420 220,520 T340,460" />
+    <path d="M780,100 Q860,180 920,80" />
+  </g>
+
+  <!-- Gift Box Base -->
+  <g filter="url(#shadow)">
+    <rect x="360" y="210" width="280" height="230" rx="8" fill="url(#boxGrad)" stroke="#593724" stroke-width="2"/>
+    <rect x="345" y="190" width="310" height="48" rx="6" fill="#4d2b1d" stroke="#6d422c" stroke-width="2"/>
+    <rect x="485" y="190" width="30" height="250" fill="url(#goldRibbon)"/>
+    <rect x="360" y="310" width="280" height="30" fill="url(#goldRibbon)"/>
+    <path d="M500,190 C460,140 430,150 460,185 C480,200 500,195 500,190 Z" fill="url(#goldRibbon)"/>
+    <path d="M500,190 C540,140 570,150 540,185 C520,200 500,195 500,190 Z" fill="url(#goldRibbon)"/>
+    <circle cx="500" cy="190" r="12" fill="#fce4b8"/>
+  </g>
+
+  <text x="500" y="525" font-family="'Instrument Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="0.25em" fill="#d4a359" text-anchor="middle" text-transform="uppercase">CURATED HAUTE GIFTING</text>
+</svg>

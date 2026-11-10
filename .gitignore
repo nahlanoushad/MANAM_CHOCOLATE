@@ -1,0 +1,157 @@
+# ==============================================================================
+# Git Ignore Configuration: Manam Chocolate WordPress Platform
+# ==============================================================================
+# Project: Manam Chocolate (WordPress + WooCommerce)
+# Workspace: D:\Data Analytics course\manamchocolate
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. WordPress Core Files & Directories
+# ------------------------------------------------------------------------------
+# WordPress core is managed independently and should not be tracked in git.
+app/public/wp-admin/
+app/public/wp-includes/
+app/public/wp-*.php
+app/public/index.php
+app/public/xmlrpc.php
+app/public/readme.html
+app/public/license.txt
+app/public/.htaccess
+
+# Standard WordPress core ignore if repository is placed inside app/public
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/readme.html
+/license.txt
+
+# ------------------------------------------------------------------------------
+# 2. Sensitive Configuration, Credentials & Environment
+# ------------------------------------------------------------------------------
+# CRITICAL: Never commit database passwords, API keys, salts, or local paths.
+*wp-config.php
+*wp-config-sample.php
+app/public/wp-config.php
+app/public/wp-config-sample.php
+app/public/local-xdebuginfo.php
+app/.envrc
+.env
+.env.*
+*.env
+
+# ------------------------------------------------------------------------------
+# 3. LocalWP Runtime, Configuration & Logs
+# ------------------------------------------------------------------------------
+logs/
+conf/
+app/public/conf/
+*.log
+error_log
+debug.log
+app/public/debug.log
+app/public/wp-content/debug.log
+
+# ------------------------------------------------------------------------------
+# 4. Database Dumps & SQL Exports
+# ------------------------------------------------------------------------------
+# Raw database dumps contain sensitive user hashes, salts, and session tokens.
+# Use sanitized/seeded SQL exports documented in README instead.
+app/sql/
+*.sql
+*.sql.gz
+*.sql.zip
+*.sqlite
+*.db
+
+# ------------------------------------------------------------------------------
+# 5. Backups & Archive Files
+# ------------------------------------------------------------------------------
+backups/
+app/backups/
+app/public/backups/
+**/backups/
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.rar
+*.7z
+*.bak
+
+# ------------------------------------------------------------------------------
+# 6. Temporary Files, Scratch Scripts & Cache
+# ------------------------------------------------------------------------------
+scratch/
+app/public/scratch/
+app/public/api_test*.php
+dom.html
+.cache/
+.sass-cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+
+# ------------------------------------------------------------------------------
+# 7. WordPress Uploads & Media Management
+# ------------------------------------------------------------------------------
+# Do not upload the entire uploads directory (contains > 2 GB of raw product photos).
+# Core page media is whitelisted below; bulk catalog photos should be seeded via CDN/manifest.
+app/public/wp-content/uploads/*
+wp-content/uploads/*
+
+# Whitelist essential page media directories required for theme layout parity:
+!app/public/wp-content/uploads/manam-about-media/
+!app/public/wp-content/uploads/manam-experience/
+!app/public/wp-content/uploads/manam-stage5/
+!wp-content/uploads/manam-about-media/
+!wp-content/uploads/manam-experience/
+!wp-content/uploads/manam-stage5/
+
+# Explicitly ignore WooCommerce internal logs and customer-related uploads
+app/public/wp-content/uploads/wc-logs/
+app/public/wp-content/uploads/woocommerce_uploads/
+wp-content/uploads/wc-logs/
+wp-content/uploads/woocommerce_uploads/
+
+# ------------------------------------------------------------------------------
+# 8. Third-Party Plugins & Standard Vendor Dependencies
+# ------------------------------------------------------------------------------
+# WooCommerce is installed via WordPress / Composer and should not bloat the repo.
+app/public/wp-content/plugins/woocommerce/
+wp-content/plugins/woocommerce/
+node_modules/
+vendor/
+
+# ------------------------------------------------------------------------------
+# 9. Operating System & IDE Artifacts
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Text Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# ------------------------------------------------------------------------------
+# 10. Preserved Project Source Code (WHITELIST)
+# ------------------------------------------------------------------------------
+# Ensure the custom theme and documentation are always tracked:
+!app/public/wp-content/themes/manamchocolate/
+!wp-content/themes/manamchocolate/
+!docs/
+!README.md
+!.gitignore
+

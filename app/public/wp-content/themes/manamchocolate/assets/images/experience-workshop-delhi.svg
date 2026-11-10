@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="delhiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c1a11"/>
+      <stop offset="50%" stop-color="#3b2014"/>
+      <stop offset="100%" stop-color="#190d07"/>
+    </linearGradient>
+    <radialGradient id="delhiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#delhiBg)"/>
+  <circle cx="600" cy="400" r="450" fill="url(#delhiGlow)"/>
+
+  <!-- Chocolatiering Marble Slab & Tools -->
+  <rect x="250" y="320" width="700" height="340" rx="6" fill="#201109" stroke="#523522" stroke-width="2"/>
+  <rect x="280" y="350" width="640" height="280" rx="4" fill="#28160c" stroke="#3d2113" stroke-width="1.5"/>
+
+  <!-- Chocolate Mould & Palette Shapes -->
+  <g fill="#452718" stroke="#693d25" stroke-width="1">
+    <rect x="330" y="390" width="140" height="90" rx="4"/>
+    <rect x="530" y="390" width="140" height="90" rx="4"/>
+    <rect x="730" y="390" width="140" height="90" rx="4"/>
+    <rect x="330" y="510" width="140" height="90" rx="4"/>
+    <rect x="530" y="510" width="140" height="90" rx="4"/>
+    <rect x="730" y="510" width="140" height="90" rx="4"/>
+  </g>
+
+  <!-- Typography & Badge -->
+  <text x="600" y="190" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="28" font-weight="700" letter-spacing="6" fill="#ffffff">WORKSHOPS · DELHI</text>
+  <text x="600" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#d4af37" text-transform="uppercase">Eldeco Center, Saket, New Delhi</text>
+  <text x="600" y="720" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" letter-spacing="2" fill="#9c8270" text-transform="uppercase">Hands-on Chocolate Making · Masterclasses · Tasting Sessions</text>
+</svg>

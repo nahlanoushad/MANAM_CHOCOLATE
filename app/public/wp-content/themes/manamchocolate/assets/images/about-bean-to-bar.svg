@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <defs>
+    <linearGradient id="btbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d2215"/>
+      <stop offset="100%" stop-color="#1f1008"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="800" fill="url(#btbBg)"/>
+  
+  <!-- Granite Melanger Wheels Illustration -->
+  <g fill="#2b160c" stroke="#5c3821" stroke-width="2">
+    <circle cx="420" cy="360" r="130"/>
+    <circle cx="580" cy="360" r="130"/>
+  </g>
+  <circle cx="420" cy="360" r="50" fill="#1f1008" stroke="#7d4e30" stroke-width="2"/>
+  <circle cx="580" cy="360" r="50" fill="#1f1008" stroke="#7d4e30" stroke-width="2"/>
+  
+  <!-- Liquid Chocolate Basin -->
+  <path d="M250,440 Q500,560 750,440 L750,560 Q500,660 250,560 Z" fill="#4a2512" opacity="0.9"/>
+  
+  <text x="500" y="680" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="20" font-weight="600" letter-spacing="4" fill="#eed9c4">‘BEAN-TO-BAR’ CRAFT</text>
+  <text x="500" y="710" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" letter-spacing="2" fill="#a88b77" text-transform="uppercase">Starting at the bean, but limited to the bar</text>
+</svg>

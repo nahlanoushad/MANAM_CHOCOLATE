@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000" width="2000" height="1000">
+  <defs>
+    <linearGradient id="extSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D221D"/>
+      <stop offset="50%" stop-color="#423129"/>
+      <stop offset="100%" stop-color="#5E453A"/>
+    </linearGradient>
+    <linearGradient id="bldgFacade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#382820"/>
+      <stop offset="100%" stop-color="#1E140F"/>
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0B2" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFB74D" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Sky & Ambient Backdrop -->
+  <rect width="2000" height="1000" fill="url(#extSky)"/>
+
+  <!-- Distant Foliage Silhouettes -->
+  <path d="M0,720 Q200,660 400,700 T800,680 T1200,710 T1600,670 T2000,720 L2000,1000 L0,1000 Z" fill="#18110D" opacity="0.6"/>
+
+  <!-- Ground / Pavement -->
+  <rect y="720" width="2000" height="280" fill="#1A130E"/>
+  <line x1="0" y1="720" x2="2000" y2="720" stroke="#52392E" stroke-width="3"/>
+
+  <!-- Modern Architectural Karkhana Building Structure -->
+  <g transform="translate(300, 220)">
+    <!-- Main Structure Block -->
+    <rect x="0" y="80" width="1400" height="420" rx="4" fill="url(#bldgFacade)" stroke="#52392E" stroke-width="2"/>
+    
+    <!-- Large Glass Atrium Facade (Floor to Ceiling) -->
+    <g fill="url(#warmLight)">
+      <rect x="80" y="140" width="220" height="340" rx="2" stroke="#4A3428" stroke-width="3"/>
+      <rect x="340" y="140" width="220" height="340" rx="2" stroke="#4A3428" stroke-width="3"/>
+      <rect x="600" y="140" width="220" height="340" rx="2" stroke="#4A3428" stroke-width="3"/>
+      <rect x="860" y="140" width="220" height="340" rx="2" stroke="#4A3428" stroke-width="3"/>
+      <rect x="1120" y="140" width="200" height="340" rx="2" stroke="#4A3428" stroke-width="3"/>
+    </g>
+
+    <!-- Warm Interior Illumination Silhouettes & Beams -->
+    <g opacity="0.4" fill="#FFE5B4">
+      <ellipse cx="190" cy="300" rx="70" ry="120"/>
+      <ellipse cx="450" cy="300" rx="70" ry="120"/>
+      <ellipse cx="710" cy="300" rx="70" ry="120"/>
+      <ellipse cx="970" cy="300" rx="70" ry="120"/>
+    </g>
+
+    <!-- Upper Signage Fascia -->
+    <rect x="80" y="30" width="1240" height="70" fill="#140D09" stroke="#3D291F" stroke-width="1.5"/>
+    <text x="700" y="74" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="28" letter-spacing="12" fill="#EADCCF" font-weight="600">MANAM CHOCOLATE KARKHANA</text>
+  </g>
+
+  <!-- Foreground Landscape & Trees -->
+  <g fill="#120C08">
+    <path d="M120,720 Q160,540 220,530 Q280,540 320,720 Z"/>
+    <path d="M1740,720 Q1780,560 1840,550 Q1900,560 1940,720 Z"/>
+  </g>
+
+  <!-- Editorial Badge Watermark -->
+  <g transform="translate(1680, 880)" opacity="0.85">
+    <rect width="240" height="60" rx="4" fill="#000000" fill-opacity="0.5"/>
+    <text x="120" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" letter-spacing="3" fill="#D6CBC1" text-transform="uppercase">01 / EXTERIOR FACADE</text>
+  </g>
+</svg>
+

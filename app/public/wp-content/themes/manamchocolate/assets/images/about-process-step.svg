@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="procGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c1a11"/>
+      <stop offset="100%" stop-color="#180e08"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#procGrad)"/>
+  <rect x="15" y="15" width="570" height="420" rx="3" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1.5"/>
+  <circle cx="300" cy="200" r="70" fill="#382217" stroke="#6b4129" stroke-width="1.5"/>
+  <!-- Cacao leaf / bean motif -->
+  <path d="M300,150 Q340,200 300,250 Q260,200 300,150 Z" fill="#b88349"/>
+  <text x="300" y="320" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="14" letter-spacing="3" fill="#d9bead" text-transform="uppercase">The Craft of Indian Cacao</text>
+</svg>

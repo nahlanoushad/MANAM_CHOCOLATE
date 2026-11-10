@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000" width="2000" height="1000">
+  <defs>
+    <radialGradient id="retBg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#4A3428"/>
+      <stop offset="60%" stop-color="#2D1E16"/>
+      <stop offset="100%" stop-color="#140D09"/>
+    </radialGradient>
+    <linearGradient id="woodTable" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#69432F"/>
+      <stop offset="100%" stop-color="#3A2216"/>
+    </linearGradient>
+    <linearGradient id="brassGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4A359"/>
+      <stop offset="50%" stop-color="#F3E5AB"/>
+      <stop offset="100%" stop-color="#B88636"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="2000" height="1000" fill="url(#retBg)"/>
+
+  <!-- Back Wall Tablet Library Shelves -->
+  <g transform="translate(180, 80)">
+    <!-- Main Shelf Frame -->
+    <rect width="1640" height="540" fill="#1C120C" stroke="#3D291E" stroke-width="3"/>
+    
+    <!-- Vertical Dividers -->
+    <line x1="273" y1="0" x2="273" y2="540" stroke="#3D291E" stroke-width="2"/>
+    <line x1="546" y1="0" x2="546" y2="540" stroke="#3D291E" stroke-width="2"/>
+    <line x1="820" y1="0" x2="820" y2="540" stroke="#3D291E" stroke-width="2"/>
+    <line x1="1093" y1="0" x2="1093" y2="540" stroke="#3D291E" stroke-width="2"/>
+    <line x1="1366" y1="0" x2="1366" y2="540" stroke="#3D291E" stroke-width="2"/>
+
+    <!-- Horizontal Shelves with Tablet Box Rows -->
+    <g stroke="#D4A359" stroke-width="1.5" opacity="0.85">
+      <!-- Shelf 1 -->
+      <line x1="0" y1="135" x2="1640" y2="135" stroke="#54382A" stroke-width="6"/>
+      <!-- Shelf 2 -->
+      <line x1="0" y1="270" x2="1640" y2="270" stroke="#54382A" stroke-width="6"/>
+      <!-- Shelf 3 -->
+      <line x1="0" y1="405" x2="1640" y2="405" stroke="#54382A" stroke-width="6"/>
+    </g>
+
+    <!-- Stylized Tablet Display Rectangles -->
+    <g fill="#2A1B12" stroke="#4A3224" stroke-width="1.5">
+      <!-- Repeated Row of Displayed Chocolate Boxes -->
+      <rect x="30" y="40" width="60" height="80" rx="2"/>
+      <rect x="110" y="40" width="60" height="80" rx="2"/>
+      <rect x="190" y="40" width="60" height="80" rx="2"/>
+      <rect x="300" y="40" width="60" height="80" rx="2"/>
+      <rect x="380" y="40" width="60" height="80" rx="2"/>
+      <rect x="460" y="40" width="60" height="80" rx="2"/>
+      <rect x="580" y="40" width="60" height="80" rx="2"/>
+      <rect x="660" y="40" width="60" height="80" rx="2"/>
+      <rect x="740" y="40" width="60" height="80" rx="2"/>
+      <rect x="850" y="40" width="60" height="80" rx="2"/>
+      <rect x="930" y="40" width="60" height="80" rx="2"/>
+      <rect x="1010" y="40" width="60" height="80" rx="2"/>
+      <rect x="1120" y="40" width="60" height="80" rx="2"/>
+      <rect x="1200" y="40" width="60" height="80" rx="2"/>
+      <rect x="1280" y="40" width="60" height="80" rx="2"/>
+      <rect x="1390" y="40" width="60" height="80" rx="2"/>
+      <rect x="1470" y="40" width="60" height="80" rx="2"/>
+      <rect x="1550" y="40" width="60" height="80" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Flooring Perspective Lines -->
+  <path d="M0,740 L2000,740 L2000,1000 L0,1000 Z" fill="#18100C"/>
+  <line x1="600" y1="740" x2="300" y2="1000" stroke="#2B1D15" stroke-width="2"/>
+  <line x1="1000" y1="740" x2="1000" y2="1000" stroke="#2B1D15" stroke-width="2"/>
+  <line x1="1400" y1="740" x2="1700" y2="1000" stroke="#2B1D15" stroke-width="2"/>
+
+  <!-- Foreground Central Tasting & Retail Pedestal Counter -->
+  <g transform="translate(620, 640)">
+    <!-- Base Island Block -->
+    <polygon points="60,0 700,0 760,260 0,260" fill="url(#woodTable)" stroke="#4A3022" stroke-width="2"/>
+    <!-- Brushed Brass Accent Trim -->
+    <polygon points="56,0 704,0 708,20 52,20" fill="url(#brassGold)"/>
+    <!-- Glass Vitrine Cloches & Bonbon Pedestals -->
+    <ellipse cx="200" cy="-20" rx="45" ry="12" fill="#EADCCF" opacity="0.6"/>
+    <path d="M155,-20 Q200,-90 245,-20 Z" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFE5B4" stroke-width="1.5"/>
+    <ellipse cx="380" cy="-20" rx="45" ry="12" fill="#EADCCF" opacity="0.6"/>
+    <path d="M335,-20 Q380,-90 425,-20 Z" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFE5B4" stroke-width="1.5"/>
+    <ellipse cx="560" cy="-20" rx="45" ry="12" fill="#EADCCF" opacity="0.6"/>
+    <path d="M515,-20 Q560,-90 605,-20 Z" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFE5B4" stroke-width="1.5"/>
+  </g>
+
+  <!-- Editorial Badge Watermark -->
+  <g transform="translate(1680, 880)" opacity="0.85">
+    <rect width="240" height="60" rx="4" fill="#000000" fill-opacity="0.5"/>
+    <text x="120" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" letter-spacing="3" fill="#D6CBC1" text-transform="uppercase">02 / RETAIL SPACE</text>
+  </g>
+</svg>
+

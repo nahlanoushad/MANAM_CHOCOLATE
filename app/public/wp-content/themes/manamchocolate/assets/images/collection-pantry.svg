@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <defs>
+    <radialGradient id="bgPan" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3c2419"/>
+      <stop offset="50%" stop-color="#26150e"/>
+      <stop offset="100%" stop-color="#130805"/>
+    </radialGradient>
+    <linearGradient id="jarGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#452718"/>
+      <stop offset="50%" stop-color="#2d170d"/>
+      <stop offset="100%" stop-color="#1c0c05"/>
+    </linearGradient>
+    <filter id="pantryShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#bgPan)"/>
+
+  <!-- Left: Chocolate Spread Glass Jar -->
+  <g transform="translate(310, 180)" filter="url(#pantryShadow)">
+    <!-- Lid -->
+    <rect x="25" y="0" width="130" height="26" rx="5" fill="#c48b59" stroke="#db9f6b" stroke-width="1.5"/>
+    <!-- Jar Body -->
+    <rect x="10" y="26" width="160" height="200" rx="14" fill="url(#jarGlass)" stroke="#553221" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="25" y="70" width="130" height="110" rx="6" fill="#fdfaf6"/>
+    <text x="90" y="115" font-family="'Instrument Sans', sans-serif" font-size="11" font-weight="700" fill="#282828" text-anchor="middle" letter-spacing="0.1em">MANAM</text>
+    <text x="90" y="135" font-family="'Instrument Sans', sans-serif" font-size="9" font-weight="500" fill="#666" text-anchor="middle">CHOCOLATE SPREAD</text>
+  </g>
+
+  <!-- Right: Drinking Chocolate Ceramic Cup / Whisk -->
+  <g transform="translate(530, 210)" filter="url(#pantryShadow)">
+    <!-- Cup Body -->
+    <path d="M20,40 L160,40 L140,160 L40,160 Z" fill="#2d170e" stroke="#522d1b" stroke-width="2"/>
+    <!-- Saucer -->
+    <ellipse cx="90" cy="170" rx="90" ry="16" fill="#201009" stroke="#422213" stroke-width="2"/>
+    <!-- Rich Drinking Chocolate Surface -->
+    <ellipse cx="90" cy="40" rx="70" ry="18" fill="#1b0c06" stroke="#442111" stroke-width="1.5"/>
+    <path d="M65,36 Q90,28 115,36" stroke="#c48b59" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Steam Lines -->
+    <g stroke="#d4a359" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round">
+      <path d="M70,10 Q60,-10 75,-25"/>
+      <path d="M90,5 Q105,-15 95,-30"/>
+      <path d="M110,12 Q120,-8 110,-22"/>
+    </g>
+  </g>
+
+  <text x="500" y="525" font-family="'Instrument Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="0.25em" fill="#d4a359" text-anchor="middle" text-transform="uppercase">SPREADS &amp; DRINKING CHOCOLATE</text>
+</svg>

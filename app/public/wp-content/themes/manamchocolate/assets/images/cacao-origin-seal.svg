@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340" width="300" height="340" fill="none">
+  <!-- Outer Circular Stamped Border -->
+  <circle cx="150" cy="160" r="130" stroke="#444444" stroke-width="2"/>
+  <circle cx="150" cy="160" r="118" stroke="#333333" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Botanical Pod Emblem -->
+  <g transform="translate(150, 150) scale(0.65)" stroke="#D4A359" stroke-width="2.5" fill="none">
+    <path d="M0 -90 C45 -70 70 -25 70 25 C70 75 40 105 0 125 C-40 105 -70 75 -70 25 C-70 -25 -45 -70 0 -90 Z"/>
+    <path d="M0 -90 C16 -60 25 -15 25 25 C25 65 12 100 0 125"/>
+    <path d="M0 -90 C-16 -60 -25 -15 -25 25 C-25 65 -12 100 0 125"/>
+    <line x1="0" y1="-90" x2="0" y2="125"/>
+  </g>
+
+  <!-- Circular Arch Text Simulation / Monogram -->
+  <text x="150" y="75" text-anchor="middle" font-family="'Instrument Sans', -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="4" fill="#EADCCF" text-transform="uppercase">INDIAN ORIGIN</text>
+  <text x="150" y="260" text-anchor="middle" font-family="'Instrument Sans', -apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#888888" text-transform="uppercase">WEST GODAVARI</text>
+  <text x="150" y="278" text-anchor="middle" font-family="'Instrument Sans', -apple-system, sans-serif" font-size="8" font-weight="400" letter-spacing="2" fill="#666666" text-transform="uppercase">EST. 2023</text>
+</svg>
+

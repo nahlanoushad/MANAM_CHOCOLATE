@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1000" width="2000" height="1000">
+  <defs>
+    <radialGradient id="roastBg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#3D2014"/>
+      <stop offset="60%" stop-color="#24110A"/>
+      <stop offset="100%" stop-color="#120603"/>
+    </radialGradient>
+    <linearGradient id="drumMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A3B34"/>
+      <stop offset="35%" stop-color="#7A6860"/>
+      <stop offset="70%" stop-color="#4A3B34"/>
+      <stop offset="100%" stop-color="#2D211C"/>
+    </linearGradient>
+    <linearGradient id="copperPipe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D47343"/>
+      <stop offset="50%" stop-color="#FF9561"/>
+      <stop offset="100%" stop-color="#8F3E18"/>
+    </linearGradient>
+    <linearGradient id="cacaoRoastGlow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B2B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFAB40" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="2000" height="1000" fill="url(#roastBg)"/>
+
+  <!-- Factory Industrial Brick/Concrete Grid Wall -->
+  <g stroke="#26150D" stroke-width="1.5" opacity="0.6">
+    <line x1="0" y1="200" x2="2000" y2="200"/>
+    <line x1="0" y1="400" x2="2000" y2="400"/>
+    <line x1="0" y1="600" x2="2000" y2="600"/>
+  </g>
+
+  <!-- Flooring -->
+  <rect y="720" width="2000" height="280" fill="#180C07"/>
+
+  <!-- Overhead Industrial Exhaust & Copper Ventilation Ducts -->
+  <g>
+    <path d="M400,0 L400,240 Q400,320 480,320 L750,320" fill="none" stroke="url(#copperPipe)" stroke-width="36"/>
+    <path d="M1600,0 L1600,200 Q1600,280 1520,280 L1250,280" fill="none" stroke="url(#drumMetal)" stroke-width="32"/>
+  </g>
+
+  <!-- Central Craft Cacao Roaster Machine -->
+  <g transform="translate(680, 260)">
+    <!-- Base Machine Housing -->
+    <rect x="60" y="240" width="520" height="240" rx="6" fill="#1C1410" stroke="#3D2D26" stroke-width="3"/>
+    
+    <!-- Cylindrical Roasting Drum -->
+    <ellipse cx="320" cy="180" rx="200" ry="140" fill="url(#drumMetal)" stroke="#5E4A40" stroke-width="3"/>
+    <!-- Drum Center Inspection Port -->
+    <circle cx="320" cy="180" r="45" fill="#140D09" stroke="#B87333" stroke-width="4"/>
+    <circle cx="320" cy="180" r="35" fill="url(#cacaoRoastGlow)"/>
+
+    <!-- Cooling Tray (Circular Agitator Arm & Roasted Cacao Beans) -->
+    <g transform="translate(140, 420)">
+      <ellipse cx="180" cy="60" rx="220" ry="75" fill="#2E1C13" stroke="#5E4A40" stroke-width="4"/>
+      <!-- Bean Bed -->
+      <ellipse cx="180" cy="60" rx="200" ry="60" fill="#3D2314"/>
+      <!-- Scattered Dark Cacao Beans -->
+      <g fill="#211007">
+        <ellipse cx="80" cy="45" rx="8" ry="5"/>
+        <ellipse cx="120" cy="60" rx="9" ry="5"/>
+        <ellipse cx="160" cy="40" rx="8" ry="6"/>
+        <ellipse cx="200" cy="70" rx="8" ry="5"/>
+        <ellipse cx="240" cy="50" rx="9" ry="6"/>
+        <ellipse cx="280" cy="65" rx="8" ry="5"/>
+        <ellipse cx="140" cy="80" rx="9" ry="5"/>
+        <ellipse cx="220" cy="85" rx="8" ry="6"/>
+      </g>
+      <!-- Agitator Center Hub & Stirrer Arms -->
+      <circle cx="180" cy="60" r="22" fill="#5E4A40"/>
+      <line x1="180" y1="60" x2="350" y2="40" stroke="#7A6559" stroke-width="5"/>
+      <line x1="180" y1="60" x2="20" y2="70" stroke="#7A6559" stroke-width="5"/>
+    </g>
+  </g>
+
+  <!-- Editorial Badge Watermark -->
+  <g transform="translate(1680, 880)" opacity="0.85">
+    <rect width="240" height="60" rx="4" fill="#000000" fill-opacity="0.5"/>
+    <text x="120" y="36" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" letter-spacing="3" fill="#D6CBC1" text-transform="uppercase">05 / CACAO ROASTING</text>
+  </g>
+</svg>
+

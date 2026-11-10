@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600">
+  <defs>
+    <radialGradient id="bgSnack" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3b271a"/>
+      <stop offset="50%" stop-color="#26160d"/>
+      <stop offset="100%" stop-color="#120904"/>
+    </radialGradient>
+    <radialGradient id="clusterGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#4d2f1f"/>
+      <stop offset="60%" stop-color="#331c11"/>
+      <stop offset="100%" stop-color="#1a0c06"/>
+    </radialGradient>
+    <filter id="drageeShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#bgSnack)"/>
+
+  <!-- Organic Chocolate Barks -->
+  <g filter="url(#drageeShadow)">
+    <!-- Bark 1 -->
+    <path d="M280,240 L450,180 L480,310 L300,360 Z" fill="#2a160d" stroke="#48281a" stroke-width="2"/>
+    <circle cx="340" cy="250" r="12" fill="#c48b59" opacity="0.8"/>
+    <circle cx="410" cy="230" r="8" fill="#e8c89b" opacity="0.9"/>
+    <circle cx="420" cy="280" r="14" fill="#c48b59" opacity="0.8"/>
+    <circle cx="350" cy="310" r="9" fill="#e8c89b" opacity="0.9"/>
+
+    <!-- Bark 2 -->
+    <path d="M490,210 L680,230 L640,380 L460,330 Z" fill="#351c11" stroke="#55301f" stroke-width="2"/>
+    <circle cx="540" cy="260" r="10" fill="#e8c89b" opacity="0.9"/>
+    <circle cx="610" cy="280" r="15" fill="#c48b59" opacity="0.8"/>
+    <circle cx="560" cy="320" r="11" fill="#c48b59" opacity="0.8"/>
+  </g>
+
+  <!-- Scattered Chocolate Dragees -->
+  <g filter="url(#drageeShadow)">
+    <ellipse cx="230" cy="380" rx="28" ry="24" fill="url(#clusterGrad)"/>
+    <ellipse cx="710" cy="340" rx="30" ry="26" fill="url(#clusterGrad)"/>
+    <ellipse cx="760" cy="250" rx="24" ry="22" fill="url(#clusterGrad)"/>
+    <ellipse cx="260" cy="200" rx="22" ry="20" fill="url(#clusterGrad)"/>
+  </g>
+
+  <text x="500" y="525" font-family="'Instrument Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="0.25em" fill="#d4a359" text-anchor="middle" text-transform="uppercase">BARKS, DRAGEES &amp; CLUSTERS</text>
+</svg>

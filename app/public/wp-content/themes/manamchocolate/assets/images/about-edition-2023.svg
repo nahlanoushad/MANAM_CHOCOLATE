@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" width="1400" height="800">
+  <defs>
+    <linearGradient id="edBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24130a"/>
+      <stop offset="50%" stop-color="#3b1f11"/>
+      <stop offset="100%" stop-color="#1a0c06"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#dfa856" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="800" fill="url(#edBg)"/>
+  <circle cx="700" cy="360" r="500" fill="url(#goldGlow)"/>
+  
+  <!-- Golden Edition Seal -->
+  <g transform="translate(700, 360)">
+    <circle r="180" fill="none" stroke="#d4af37" stroke-width="2" stroke-dasharray="6,4"/>
+    <circle r="165" fill="#29140a" stroke="#b89332" stroke-width="1.5"/>
+    <text y="-40" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="18" letter-spacing="6" fill="#f0dbb0" text-transform="uppercase">INDIAN CRAFT CHOCOLATE</text>
+    <text y="15" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="44" font-weight="700" letter-spacing="4" fill="#ffffff">EDITION 2023</text>
+    <line x1="-100" y1="40" x2="100" y2="40" stroke="#b89332" stroke-width="1"/>
+    <text y="70" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#d9be9b" text-transform="uppercase">250+ Products · 45 Categories</text>
+  </g>
+</svg>
